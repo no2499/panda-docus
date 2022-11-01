@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '熊貓電腦',
+  tagline: '快速收送、使命必達',
+  url: 'https://pandapc.simty.work',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,15 +16,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'no2499', // Usually your GitHub org/user name.
+  projectName: 'panda-docus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hant-TW',
+    locales: ['zh-Hant-TW'],
   },
 
   presets: [
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '熊貓電腦',
         logo: {
-          alt: 'My Site Logo',
+          alt: '熊貓電腦',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,12 +67,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '我們的服務',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '精選文章', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: '我們的蝦皮賣場',
             position: 'right',
           },
         ],
@@ -81,23 +81,31 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '服務',
             items: [
               {
-                label: 'Tutorial',
+                label: '我們的服務及價目表',
+                to: '/docs/intro',
+              },
+              {
+                label: '快速收送的服務區域',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '我們的社群',
             items: [
               {
-                label: 'Stack Overflow',
+                label: '蝦皮',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'instagram',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'Facebook',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
@@ -107,20 +115,24 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
+                label: '精選文章',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: '和我們聯絡',
+                to: '/blog',
+              },
+              {
+                label: 'GITHUB',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 熊貓電腦 - [ 台北市、新北市 ]`,
       },
       prism: {
         theme: lightCodeTheme,

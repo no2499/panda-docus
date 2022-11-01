@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '電腦維修，線上填單，到府快速收送',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        詳細說明，巴拉巴拉
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '電腦主機、零件：線上線下買賣',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        線上商場購買，線下實體店家服務，巴拉巴拉。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '二手回收、二手電腦買賣聯盟',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        您有電腦想要回收，或者想要買賣二手電腦，歡迎填單專人親切和您聯繫。
       </>
     ),
   },
