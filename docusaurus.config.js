@@ -67,8 +67,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '我們的服務',
+            label: '服務項目',
           },
+          {to: '/area', label: '收送服務區域', position: 'left'},
+          {to: '/price', label: '價格表', position: 'left'},
+          {to: '/contact', label: '和我們聯絡', position: 'left'},
           {to: '/blog', label: '精選文章', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -84,12 +87,12 @@ const config = {
             title: '服務',
             items: [
               {
-                label: '我們的服務及價目表',
+                label: '我們的服務項目',
                 to: '/docs/intro',
               },
               {
                 label: '快速收送的服務區域',
-                to: '/docs/intro',
+                to: '/area',
               },
             ],
           },
@@ -123,7 +126,7 @@ const config = {
               },
               {
                 label: '和我們聯絡',
-                to: '/blog',
+                to: '/contact',
               },
               {
                 label: 'GITHUB',
@@ -132,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 熊貓電腦 - [ 台北市、新北市 ]`,
+        copyright: `Copyright © ${new Date().getFullYear()} 熊貓電腦 - [ 台北市、新北市、高雄市 ]`,
       },
       prism: {
         theme: lightCodeTheme,
