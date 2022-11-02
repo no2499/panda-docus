@@ -1,9 +1,16 @@
 ---
-title: my hello page title
-description: my hello page description
+title: 服務區域
+description: 服務區域
 hide_table_of_contents: true
 ---
 
-# AREA
+# 我們的服務區域
 
-AREA
+目前收送服務區域為：
+* 台北市
+* 新北市 (坪林、石門、萬里、雙溪、烏來 除外)
+* 高雄市 *(試營運，視實際情況接單)*
+
+其他地區也可用貨運收送，如有急單也可以轉介優質維修公司，實際情況請和我們聯絡。
+
+如果有任何問題歡迎[和我們聯絡☎️](/contact)
